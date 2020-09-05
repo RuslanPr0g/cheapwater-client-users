@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   
@@ -6,7 +6,11 @@ const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+
+    input, select, textarea {
+      font-size: 16px;
+    }
   }
 
   html {
