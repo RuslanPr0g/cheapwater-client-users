@@ -21,6 +21,10 @@ const HeaderContainer = styled.div`
 `;
 
 const Logo = styled.div`
+  position: absolute;
+  top: 18px;
+  left: 6%;
+
   font-size: 22px;
   font-weight: 700;
 `;
