@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
-import Emoji from '../../UI/Emoji/Emoji';
-import Hamburger from '../../UI/SideDrawer/Hamburger/Hamburger';
+import Emoji from '../../UI/Emoji';
+import Hamburger from '../../UI/SideDrawer/Hamburger';
 
 const HeaderStyled = styled.header`
 	width: 100%;
@@ -11,7 +10,6 @@ const HeaderStyled = styled.header`
 	justify-content: center;
 	align-items: center;
 `;
-
 const HeaderContainer = styled.div`
 	width: 92%;
 
@@ -21,8 +19,7 @@ const HeaderContainer = styled.div`
 
 	font-weight: 700;
 `;
-
-const Logo = styled.div`font-size: 24px;`;
+const Logo = styled.div`font-size: 22px;`;
 
 const Header = () => {
 	return (

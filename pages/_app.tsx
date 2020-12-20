@@ -1,20 +1,12 @@
-// import App from 'next/app'
-
-import GlobalStyled from '../theme/globalStyles';
-import { Fragment } from 'react';
-
-import Header from '../components/Layout/Header/Header';
-import Footer from '../components/Layout/Footer/Footer';
+import GlobalStyled from '../theme/globalStyles'
 
 function MyApp({ Component, pageProps }) {
-	return (
-		<Fragment>
-			<GlobalStyled />
-			<Header />
-			<Component {...pageProps} />
-			<Footer />
-		</Fragment>
-	);
+  return (
+    <>
+      <GlobalStyled />
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 // Only uncomment this method if you have blocking data requirements for
@@ -29,4 +21,4 @@ function MyApp({ Component, pageProps }) {
 //   return { ...appProps }
 // }
 
-export default MyApp;
+export default MyApp
